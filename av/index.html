@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Amrutham Ventures</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/loav.png" type="image/x-icon">
+  <link rel="icon" href="images/loav.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header p-0 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+             <a class="navbar-brand p-0" href="index.html"><img src="images/loav.png" alt="logo" style="width:130px;height:125px;"></a>
+          <!--<a class="text-color mr-3" href="tel:+918921854584"><strong>CALL</strong>+918921854584</a>-->
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right my-auto" style="font-size: 15px;">
+             
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="index.html">Home</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="about.html">About</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="courses.html">Our Business</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="events.html" >Our Brands</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="blog.html">Products</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar 
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/loav.png" alt="logo" style="width:100px;height:85px;"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="courses.html">Our Business</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">Our Brands</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="blog.html">Products</a>
+            </li>
+            
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>-->
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- hero slider -->
+<section class="hero-section overlay bg-cover" data-background="images/banner/bav.jpg">
+  <div class="container">
+    <div class="hero-slider">
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h2  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1"style="color:green;" >Annam Brahma ~ Food is Divine</h2>
+            <p  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4" style="color:#b81a1a;">We, Indians have great respect for food. While eating we forget everything, because it is a prayer. It is an existential prayer for healthy life. We, Indians believe that we are eating the divine from where we get nourishment.</p>
+            <h3  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="color:green;">Better Food will bring us a brighter future.</h3>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+           <h2  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="color:green;">Annam Brahma ~ Food is Divine</h2>
+            <p  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4" style="color:#b81a1a;">"AMRITHAM VENTURES" is as an endeavour to bring back the healthy practices in eating. It is a reaction towards chemicals and other similar ingredients in food.</p>
+            <h3  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="color:green;">Better Food will bring us a brighter future.</h3>
+          </div>
+        </div>
+      </div>
+      <!-- slider item 
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+           <h1  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="color:green;">Annam Brahma ~ Food is Divine</h1>
+            <p  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4" style="color:red;">"AMRITHAM VENTURES" is as an endeavour to bring back the healthy practices in eating. It is a reaction towards chemicals and other similar ingredients in food.</p>
+            <h3  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="color:green;">Better Food will bring us a brighter future.</h3>
+          </div>
+        </div>
+      </div>-->
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+           <h2  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="color:green;">Annam Brahma ~ Food is Divine</h2>
+            <p  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4" style="color:#b81a1a;">"AMRITHAM VENTURES" is an attempt to bring international brands to India. They also plan to spread the goodness of Indian Spices in International Market.</p>
+            <h3  data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="color:green;">Better Food will bring us a brighter future.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /hero slider -->
+
+<!-- banner-feature -->
+<section class="bg-gray overflow-md-hidden">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      <div class="col-xl-4 col-lg-5 align-self-end">
+        <img class="img-fluid w-100" src="images/banner/sales.png" alt="banner-feature">
+      </div>
+      <div class="col-xl-8 col-lg-7">
+        <div class="row feature-blocks bg-gray justify-content-between">
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-car mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Distributer</h3>
+            <p>The love of humans to eat provides exponential growth to food industry. In Kerala, this has created umpteen opportunities in the distribution of food</p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-user mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Trader</h3>
+            <p>As a trader the company source the quality products right from the manufacturer. Being an established distrubuter, the company can sell of these products to retail as well as instututional customers. </p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-export mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Exporter</h3>
+            <p>The company penetrated the market with a systematic approach. The roaring success in business gave confidence for expanding their business. Thus, the company expanded its operations by adding spices</p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-import mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Importer</h3>
+            <p>The company penetrated the Kerala market with a systematic approach. The roaring success in business gave confidence for expanding their business. With the proven delivery network as well as the sales team of the company Amrutham Ventures is exploring new markets. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /banner-feature -->
+
+<!-- about us -->
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">Annam Brahma ~ ~ Food is Divine</h2>
+        <p>We, Indians have great respect for food. While eating we forget everything, because it is a prayer. It is an existential prayer for healthy life. We, Indians believe that we are eating the divine from where we get nourishment. </p>
+        <p>The company is catering to almost all major supermarket chains across Kerala. Further, Major Bakery, Hotels and Hospitals are also business partners of the company</p>
+        <a href="about.html" class="btn btn-primary-outline">Learn more</a>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <img class="img-fluid w-100" src="images/about/sales1.jpg" alt="about image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about us -->
+
+<!-- courses -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">Our Business</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="courses.html" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- course list -->
+<div class="row justify-content-center">
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/dis.jpg" alt="course thumb" style="width:360px;height:250px;">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"></li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="#">
+          <h4 class="card-title">Distribution</h4>
+        </a>
+        <p class="card-text mb-4"> </p>
+       
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/dis2.jpg" alt="course thumb" style="width:360px;height:250px;">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"></li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="#">
+          <h4 class="card-title">Trading</h4>
+        </a>
+        <p class="card-text mb-4"> </p>
+       
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+ <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/dis4.jpg" alt="course thumb" style="width:360px;height:250px;">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"></li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="#">
+          <h4 class="card-title">Van Sale/ Route sale</h4>
+        </a>
+        <p class="card-text mb-4"> </p>
+       
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/dis3.jpg" alt="course thumb" style="width:360px;height:250px;">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"></li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="#">
+          <h4 class="card-title">Exporting</h4>
+        </a>
+        <p class="card-text mb-4"> </p>
+       
+      </div>
+    </div>
+  </div>
+  
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/dis5.jpg" alt="course thumb" style="width:360px;height:250px;">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"></li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="#">
+          <h4 class="card-title">Importing</h4>
+        </a>
+        <p class="card-text mb-4"> </p>
+       
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/dis6.jpg" alt="course thumb" style="width:360px;height:250px;">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"></li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="#">
+          <h4 class="card-title">Super Stockist</h4>
+        </a>
+        <p class="card-text mb-4"> </p>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /course list -->
+    <!-- mobile see all button -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="courses.html" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">sell all</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /courses -->
+
+<!-- cta -->
+
+<!-- /cta -->
+
+<!-- success story -->
+<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <!--<a class="play-btn venobox" href="#" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>-->
+      </div>
+      <div class="col-lg-6 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">Success Stories</h2>
+          <p>During the early days, the prime focus was in the distribution of proven brands in FMCG. The company penetrated the market with a systematic approach. The roaring success in business gave confidence for expanding their business. Thus, the company expanded its operations by adding spices. The next expansion was with selected products from groceries & milk. 
+.</p>
+          <p>The clients are pretty happy with the delivery network as well as the sales team of the company. The outstanding marketing team in Amrutham Ventures is exploring new markets. 
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /success story -->
+
+<!-- events -->
+
+<!-- /events -->
+
+<!-- teachers -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="section-title">Our Team</h2>
+      </div>
+      <!-- teacher -->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/teachers/3.jpeg" alt="teacher">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Mr. Anil Vijayakumar</h4>
+            </a>
+            <p>Managing Director</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- teacher -->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/teachers/2.jpeg" alt="teacher">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Ms.Meenukutty</h4>
+            </a>
+            <p>Director</p>
+            <!--<ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>-->
+          </div>
+        </div>
+      </div>
+      <!-- teacher -->
+      <!--<div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/teachers/2.jpeg" alt="teacher">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Mr.Anil Vijayakumar</h4>
+            </a>
+            <p>Managing Director</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </div>
+</section>
+<!-- /teachers -->
+
+<!-- blog -->
+<!-- /blog -->
+
+<!-- footer -->
+<footer style="color:#f4fff9;">
+  <!-- newsletter 
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- footer content -->
+  <div class="bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0 ">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/loav.png" alt="logo" style="width:120px;height:80px;"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Amrutham Ventures Private Limited
+							Puthenveedu Building
+							7/164 A, Chirakkadavu East Post
+							Kanjirapally, Kottayam – 686520
+</li>
+            <li class="mb-2"><a href="tel:+918921854584" style="color:#f4fff9;">+918921854584</a>
+</li>
+            <li class="mb-2"><a href="mailto:amruthumventures@gmail.com" style="color:#f4fff9;">amruthumventures@gmail.com</a></li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 " >
+          <h4 class="text-white mb-5">COMPANY</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color " href="about.html" style="color:#f4fff9;">About Us</a></li>
+            <li class="mb-3"><a class="text-color " href="contact.html" style="color:#f4fff9;">Contact</a></li>
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Blog</a></li>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 ">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Clients</a></li>
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Brands</a></li>
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Business</a></li>
+            
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 ">
+          <h4 class="text-white mb-5">SUPPORT</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Forums</a></li>
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Documentation</a></li>
+            
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Release Status</a></li>
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 ">
+          <h4 class="text-white mb-5">RECOMMEND</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Terms & Conditions</a></li>
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Legal</a></li>
+            <li class="mb-3"><a class="text-color " href="#" style="color:#f4fff9;">Testimonials</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer text-success">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0 " style="color:#f4fff9;">Copyright
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            © Amrutham Ventures</p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
